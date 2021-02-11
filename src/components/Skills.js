@@ -3,9 +3,9 @@ import LazyLoad from 'react-lazyload'
 import * as easings from 'd3-ease'
 
 function Skill(props){
-    const progress = props.progress*5;
+    const progress = props.progress;
     const styleprops = useSpring({config: { duration: 3000,easing:easings.easeElasticOut },
-        delay:1000,width: `${progress}px`, from: {width: `0px`}})
+        delay:1000,width: `${progress}%`, from: {width: `0%`}})
 
     return(
     <div className="skill">
@@ -34,7 +34,7 @@ function Skills(){
             <LazyLoad placeholder={<Loading />}>
 
             <div className="skills">
-                <Skill name="HTML" progress="70" />
+                <Skill name="HTML" progress="65" />
                 <Skill name="CSS" progress="65" />
                 <Skill name="Javascript" progress="60" />
                 <Skill name="Python" progress="70" />

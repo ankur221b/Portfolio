@@ -18,6 +18,7 @@ function Contact() {
                 <div>CONTACT ME</div>
                 <a href="https://www.linkedin.com/in/ankur-yadav-738083164/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
                 <a href="https://github.com/ankur221b" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                <button className="coffee"><i className="fas fa-coffee" style={{margin:'0.2em 0.25em 0.2em 0.2em'}}></i>Buy me a chai</button>
             </div>
             
            

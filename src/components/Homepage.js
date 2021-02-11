@@ -1,4 +1,5 @@
 import Particle from './Particle'
+import Navbar from './Navbar'
 
 function Homepage(){
     return(
@@ -12,7 +13,8 @@ function Homepage(){
                 <div className="text">
                     <span className="hello">Hello, I'm </span>
                     <span className="highlight">Ankur Yadav</span><br/>
-                    <span className="hello">I'm a Web Developer.</span>
+                    <span className="hello">I'm a </span>
+                    <span className="hello"> Web Developer.</span>
                 </div>
                 <div className="direct">
                     <a href="#about"><div className="box" >
@@ -21,7 +23,6 @@ function Homepage(){
                     </div></a>
                 </div>
             </div>
-            
         </div>  
     </div>
 
