@@ -313,14 +313,29 @@ a {
 }
 
 @media (max-width: 800px) {
+
+	.nav-link{
+		width: 100%;
+		font-size: 0.6em;
+	}
 	/* about */
 	.about-wrapper {
 		flex-direction: column;
 	}
 
+	.image{
+		font-size:1.4em;
+	}
+
+	.projects{
+		width:70%;
+		font-size: 1.1em;
+	}
+
 	.about-content {
 		width: 75%;
 		margin-top: 5%;
+		font-size: 1.2em;
 	}
 
 	/* skills */
@@ -337,5 +352,8 @@ a {
 	}
 	.input {
 		width: 100%;
+	}
+	.message{
+		width:75%;
 	}
 }
